@@ -59,7 +59,7 @@ The analysis encompasses multiple dimensions of workforce diversity:
 │  └─ 📄 Analysis_Report.pdf
 ├─ 📁 dashboard/
 │  └─ 📄 diversity_dashboard.pbix
-└─ 📁 mesures/
+└─ 📁 measures/
    └─ 📄 measures.txt
 ```
 
