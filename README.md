@@ -52,7 +52,7 @@ The analysis encompasses multiple dimensions of workforce diversity:
 ```
 📁 PwC-Diversity-Analysis/
 ├─ 📄 README.md
-├─ 📄 requirements.txt
+├─ 📄 software_requirements.md
 ├─ 📁 data/
 │  └─ 📄 diversity_data.xlsx
 ├─ 📁 reports/
