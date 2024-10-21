@@ -1,0 +1,49 @@
+// Calculating the number of Male employees
+Male = 
+CALCULATE(
+    COUNTROWS('Pharma Group AG'), 
+    'Pharma Group AG'[Gender] = "Male"
+)
+
+// Calculating the number of Female employees
+Female = 
+CALCULATE(
+    COUNTROWS('Pharma Group AG'), 
+    'Pharma Group AG'[Gender] = "Female"
+)
+
+// Calculating the percentage of Male employees
+% of Male = 
+[Male] / COUNT('Pharma Group AG'[Employee ID])
+
+// Calculating the percentage of Female employees
+% of Female = 
+[Female] / COUNT('Pharma Group AG'[Employee ID])
+
+// Calculating the Employee Turnover Percentage
+Employee Turnover % = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('Pharma Group AG'), 
+        'Pharma Group AG'[FY20 leaver?] = "Yes"
+    ), 
+    COUNT('Pharma Group AG'[Employee ID])
+)
+
+// Calculating the number of employees promoted in FY20
+Promoted FY20 = 
+CALCULATE(
+    COUNTROWS('Pharma Group AG'), 
+    'Pharma Group AG'[Promotion in FY20?] = "Y" || 
+    'Pharma Group AG'[Promotion in FY21?] = "Yes"
+)
+
+// Calculating the percentage of 2020 Promotions
+% 2020 Promoted = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('Pharma Group AG'), 
+        'Pharma Group AG'[Promotion in FY20?] = "Y"
+    ), 
+    [Promoted FY20]
+)
