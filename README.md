@@ -67,7 +67,7 @@ The analysis encompasses multiple dimensions of workforce diversity:
 1. Clone the repository
 2. Install Power BI Desktop
 3. Open `diversity_dashboard.pbix` in Power BI Desktop
-4. Required software versions in `requirements.txt`
+4. Required software versions in `software_requirements.md`
 
 ### 🔗 Live Demo
 [Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiOWRiYTNhYmUtZTJmMC00YjA0LTg5ZmMtMGY4MzcyZjY5YWJlIiwidCI6ImQ4ZDZlN2RjLTJiMTUtNDNjNS04MWZkLTJlZmMxNDVjOWQyYyJ9&pageName=bb731640b178e9c78271)
