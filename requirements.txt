@@ -1,0 +1,11 @@
+# Required Software
+
+Power BI Desktop
+- Version: 2.114.664.0 or higher
+- Download from: https://powerbi.microsoft.com/desktop/
+
+Microsoft Excel
+- Version: 2019 or higher
+- Required for data source compatibility
+
+Note: Ensure Power BI Desktop is updated to the latest version for optimal performance and feature compatibility.
